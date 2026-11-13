@@ -1,6 +1,12 @@
 # 🏥 Diabetes Prediction with XGBoost & SMOTE
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Martin-Frei/diabetes-prediction/blob/master/XGBoost_SMOTE_Diabeties.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Martin-Frei/diabetes-prediction/blob/master/XGBoost_SMOTE_Diabetes.ipynb)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A machine learning classification project for predicting diabetes using the Pima Indians Diabetes Dataset. This project demonstrates advanced ML techniques for handling imbalanced medical data using SMOTE (Synthetic Minority Over-sampling Technique) and XGBoost.
 
@@ -212,14 +218,14 @@ Jupyter Notebook or JupyterLab
 
 3. **Run the notebook**
    ```bash
-   jupyter notebook XGBoost_SMOTE_Diabeties.ipynb
+   jupyter notebook XGBoost_SMOTE_Diabetes.ipynb
    ```
 
 ## 📂 Project Structure
 
 ```
 diabetes-prediction/
-├── XGBoost_SMOTE_Diabeties.ipynb    # Main analysis notebook
+├── XGBoost_SMOTE_Diabetes.ipynb    # Main analysis notebook
 ├── data/
 │   └── diabetes.csv                  # Dataset
 ├── screenshots/
@@ -231,6 +237,7 @@ diabetes-prediction/
 ├── models/
 │   └── (trained models can be saved here)
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
